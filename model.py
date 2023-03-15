@@ -55,6 +55,10 @@ def connect_to_db(flask_app, echo=True):
 
     print("Connected to the db!")
 
+# def db_interact(fn, *args, **kwargs):
+#     with app.app_context():
+#         fn(*args, **kwargs)
+
 
 if __name__ == "__main__":
     from server import app
